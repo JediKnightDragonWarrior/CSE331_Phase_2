@@ -19,6 +19,7 @@
  * current-task
  */
 
+#include <linux/sched.h>
 #include <linux/compiler.h>
 #include <linux/completion.h>
 #include <linux/config.h>
@@ -28,7 +29,6 @@
 #include <linux/mm.h>
 #include <linux/nmi.h>
 #include <linux/prefetch.h>
-#include <linux/sched.h>
 #include <linux/smp_lock.h>
 
 #include <asm/mmu_context.h>
